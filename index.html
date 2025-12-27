@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Qidwais | Copywriting Services</title>
+    
+    <link rel="icon" type="image/png" href="favicon.png">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rozha+One&family=Playfair+Display:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="banner-section d-flex align-items-end justify-content-between px-4">
+        <div class="person-cutout-container d-none d-md-flex justify-content-start">
+            <img src="FNK.png" alt="Copywriter 1" class="cutout-img">
+        </div>
+
+        <div class="center-text-container text-center mx-auto pb-5">
+            <h1 class="banner-title">Qidwais</h1>
+            <p class="banner-tagline">lets succeed together</p>
+            <a href="#contact" class="btn btn-contact-scroll mt-3">Work With Us ↓</a>
+        </div>
+
+
+        <div class="person-cutout-container d-none d-md-flex justify-content-end">
+            <img src="DQ.png" alt="Copywriter 2" class="cutout-img">
+        </div>
+    </header>
+
+    <br>
+    <center><h1>Portfolio</h1></center>
+
+    <main class="container-fluid px-4 py-5">
+        <div class="row g-4" id="portfolio-grid">
+        </div>
+
+        <div id="loading-trigger" class="text-center py-5">
+            <div class="spinner-border custom-spinner" role="status"></div>
+        </div>
+    </main>
+
+    <div class="modal fade" id="campaignModal" tabindex="-1" aria-hidden="true">
+        <div class="modal-dialog modal-xl modal-dialog-centered">
+            <div class="modal-content border-0 overflow-hidden shadow-lg">
+                <div class="modal-header brand-header border-0 rounded-0">
+                    <h2 class="modal-title fw-bold" id="modalTitle">CAMPAIGN</h2>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+
+                </div>
+
+                <div class="modal-body p-0 d-flex flex-column flex-md-row bg-white">
+                    <div class="modal-image-side">
+                        <img src="" id="modalImage" alt="Campaign Visual" class="img-fluid h-100 w-100">
+                    </div>
+
+                    <div class="modal-text-side p-4 p-lg-5 d-flex flex-column justify-content-center">
+                        <h5 class="text-uppercase fw-bold mb-3 text-muted" style="letter-spacing: 2px;">Overview</h5>
+                        <p id="modalDescription" class="fs-5 mb-5 text-dark"></p>
+
+                        <div class="mt-auto">
+
+                            <a href="#" id="driveLink" target="_blank" class="btn btn-theme w-100 w-md-auto">
+                                View Campaign Assets <span class="ms-2">→</span>
+                            </a>
+
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <section id="contact" class="container-fluid py-5 bg-white text-center">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-lg-8">
+                    <h2 class="contact-title mb-2">Let's Work Together</h2>
+                    <p class="mb-5 text-muted fw-light">Tell me about your project and let’s create something impactful.</p>
+
+                    <div class="form-container shadow-sm p-2 rounded">
+                        <iframe src="https://docs.google.com/forms/d/e/1FAIpQLScpOQdL_ZjSldQAZIPSLW_vs9R4NmjNI2lk0ph1sx-ugVq2pA/viewform?embedded=true"
+                                width="100%"
+                                height="800"
+                                frameborder="0"
+                                marginheight="0"
+                                marginwidth="0">
+                            Loading…
+                        </iframe>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="py-4 text-center border-top" style="background-color: var(--cream);">
+        <p class="mb-0">&copy; 2025 Qidwais Copywriting Services. All Rights Reserved.</p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="projects.js"></script>
+
+    <script src="script.js"></script>
+</body>
+</html>
