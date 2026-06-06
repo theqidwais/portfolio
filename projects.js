@@ -1,4 +1,12 @@
 const projects = [
+   {
+        name: "To The Horizon V1",
+        image: "Campaign_images/To the horizon V1.png",
+        description: "To the horizon is yearly magazine produced by IUL, I worked in writing and developing all the articles in magazine",
+        link: "https://heyzine.com/flip-book/f3cb8f384c.html"
+    },
+    
+    
     {
         name: "Babe",
         image: "Campaign_images/Babe.png",
