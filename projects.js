@@ -5,12 +5,14 @@ const projects = [
         description: "To the horizon is yearly magazine produced by IUL, I worked in writing and developing all the articles in magazine",
         link: "https://heyzine.com/flip-book/f3cb8f384c.html"
     },
-       {
-        name: "Babe",
-        image: "Campaign_images/Babe.png",
-        description: "An instagram post made for an anklet (payal) seller, follows the story of an Indian girl (babe) who is sad and one thing that has made her happy is anklets gifted to her by someone. The unique thing about the concept is that someone special can be anyone, positioning a girls only product to be bought by anyone who is seeking to impress their babes, thereby creating a uninque brand image for the seller wherein their product is not just some gurly thing it becomes a symbol of love and care ",
-        link: "https://drive.google.com/file/d/1P7UfccwL-y4f807AFt2GX0dJWEB_uZ2-/view?usp=sharing"
+
+   {
+        name: "To The Horizon V2",
+        image: "Campaign_images/To the horizon V2.png",
+        description: "To the horizon is yearly magazine produced by IUL, I worked in writing and developing all the articles in magazine",
+        link: "https://heyzine.com/flip-book/866962fcb7.html#page/1"
     },
+   
     {
         name: "Babe",
         image: "Campaign_images/Babe.png",
